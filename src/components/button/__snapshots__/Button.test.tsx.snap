@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=contained, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-large"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=contained, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-large"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=outlined, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-large"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=outlined, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-large"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=text, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-large"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=large, variant=text, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-large"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=contained, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-medium"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=contained, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-medium"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=outlined, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-medium"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=outlined, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-medium"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=text, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-medium"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=medium, variant=text, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-medium"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=contained, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-small"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=contained, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-contained btn-small"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=outlined, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-small"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=outlined, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outlined btn-small"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=text, disabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-small"
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> renders correctly with different props and matches snapshot renders correctly with size=small, variant=text, disabled=true 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-text btn-small"
+    disabled=""
+    type="button"
+  >
+    Test
+    <span
+      class="btn-backdrop"
+    />
+  </button>
+</DocumentFragment>
+`;
