@@ -1,11 +1,7 @@
-import {
-  MouseEventHandler,
-  useEffect,
-  useLayoutEffect,
-  useState,
-  useRef,
-} from "react";
+import { MouseEventHandler, useRef } from "react";
 import * as styles from "./Button.module.scss";
+import useClickEntity from "../clickEntity/useClickEntity";
+import Entity from "../clickEntity/ClickEntity";
 
 export type ButtonVariant = "text" | "contained" | "outlined";
 export type ButtonSize = "small" | "medium" | "large";
@@ -19,30 +15,6 @@ interface ButtonProps {
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-interface Entity {
-  id: number;
-  x: number;
-  y: number;
-}
-
-function ButtonEntity({ size, entity }: { size: number; entity: Entity }) {
-  const { x, y } = entity;
-  const sizePx = `${size}px`;
-
-  return (
-    <span
-      data-testid='btn-entity'
-      className={styles["btn-entity"]}
-      style={{
-        height: sizePx,
-        width: sizePx,
-        top: `${y}px`,
-        left: `${x}px`,
-      }}
-    />
-  );
-}
-
 export default function Button({
   variant = "contained",
   disabled = false,
@@ -54,12 +26,7 @@ export default function Button({
   const btnRef = useRef<HTMLButtonElement>(null);
   const finalRef = ref || btnRef;
 
-  const [entity, setEntity] = useState<Entity | null>(null);
-  const [height, setHeight] = useState(0);
-
-  const spawnEntity = (x: number, y: number) => {
-    setEntity({ id: Math.random(), x, y });
-  };
+  const { entity, size: s, spawnEntity } = useClickEntity({ ref: finalRef });
 
   const clickHandler: MouseEventHandler<HTMLButtonElement> = (e) => {
     if (disabled) return;
@@ -67,17 +34,6 @@ export default function Button({
 
     spawnEntity(e.clientX, e.clientY);
   };
-
-  useLayoutEffect(() => {
-    setHeight(finalRef.current?.offsetHeight || 0);
-  }, [finalRef]);
-
-  useEffect(() => {
-    if (entity !== null) {
-      const timer = setTimeout(() => setEntity(null), 500);
-      return () => clearTimeout(timer);
-    }
-  }, [entity]);
 
   return (
     <button
@@ -92,7 +48,12 @@ export default function Button({
       {children}
       <span className={styles["btn-backdrop"]}>
         {entity !== null && (
-          <ButtonEntity key={entity.id} size={height} entity={entity} />
+          <Entity
+            key={entity.id}
+            className={styles["btn-entity"]}
+            size={s}
+            entity={entity}
+          />
         )}
       </span>
     </button>

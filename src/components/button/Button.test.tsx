@@ -86,20 +86,20 @@ describe("<Button />", () => {
     );
 
     expect(onClick).toHaveBeenCalledTimes(0);
-    expect(screen.queryByTestId("btn-entity")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("entity")).not.toBeInTheDocument();
 
     await act(async () => {
       await user.click(screen.getByRole("button"));
     });
 
     expect(onClick).toHaveBeenCalledTimes(1);
-    expect(screen.getByTestId("btn-entity")).toBeInTheDocument();
+    expect(screen.getByTestId("entity")).toBeInTheDocument();
 
     act(() => {
       jest.runAllTimers();
     });
 
-    expect(screen.queryByTestId("btn-entity")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("entity")).not.toBeInTheDocument();
     jest.useRealTimers();
   });
 
@@ -118,6 +118,6 @@ describe("<Button />", () => {
     });
 
     expect(onClick).toHaveBeenCalledTimes(0);
-    expect(screen.queryByTestId("btn-entity")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("entity")).not.toBeInTheDocument();
   });
 });

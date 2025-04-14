@@ -1,0 +1,21 @@
+$color: rgb(144, 202, 249);
+
+@mixin entity {
+  display: block;
+  position: absolute;
+  animation: entity 0.5s ease forwards;
+  border-radius: 50%;
+  background-color: rgba($color, 0.5);
+}
+
+@keyframes entity {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(10);
+    opacity: 0.1;
+  }
+}
