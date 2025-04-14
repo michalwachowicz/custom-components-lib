@@ -1,6 +1,6 @@
 import { MouseEventHandler } from "react";
 import * as styles from "./Button.module.scss";
-import useClickEntity from "../clickEntity/useClickEntity";
+import useClickEntity from "../../hooks/useClickEntity";
 import Entity from "../clickEntity/ClickEntity";
 import useFinalRef from "../../hooks/useFinalRef";
 

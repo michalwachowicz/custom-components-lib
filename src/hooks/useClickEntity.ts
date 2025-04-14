@@ -1,5 +1,5 @@
 import { RefObject, useEffect, useLayoutEffect, useState } from "react";
-import { EntityType } from "./ClickEntity";
+import { EntityType } from "../components/clickEntity/ClickEntity";
 
 export default function useClickEntity<T extends HTMLElement>(
   ref: RefObject<T | null>

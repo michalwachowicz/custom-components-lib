@@ -3,7 +3,7 @@ import * as styles from "./Checkbox.module.scss";
 import Entity from "../clickEntity/ClickEntity";
 import Switchable from "../../interfaces/Switchable";
 import useFinalRef from "../../hooks/useFinalRef";
-import useClickCenterEntity from "../clickEntity/useClickCenterEntity";
+import useClickCenterEntity from "../../hooks/useClickCenterEntity";
 
 export default function Checkbox({
   ref,
