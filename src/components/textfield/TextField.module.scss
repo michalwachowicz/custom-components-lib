@@ -1,9 +1,5 @@
+@use "../../scss/abstracts/colors" as colors;
 @use "../../scss/mixins/inner-reset" as *;
-
-$color: rgba(255, 255, 255, 0.7);
-$blue: rgb(144, 202, 249);
-$error: #d32f2f;
-$error-active: #f44336;
 
 .textfield {
   @include inner-reset;
@@ -30,7 +26,7 @@ $error-active: #f44336;
     position: absolute;
     top: 0;
     left: 0;
-    color: $color;
+    color: colors.$white;
     transition: transform 0.3s ease;
     transform-origin: bottom left;
   }
@@ -43,7 +39,7 @@ $error-active: #f44336;
       display: block;
       width: 100%;
       height: 1px;
-      background-color: $color;
+      background-color: colors.$white;
       bottom: 0;
       left: 0;
     }
@@ -97,7 +93,7 @@ $error-active: #f44336;
   }
 
   &-outlined {
-    border: 1px solid $color;
+    border: 1px solid colors.$white;
     border-radius: 0.25rem;
 
     .textfield-input {
@@ -119,58 +115,58 @@ $error-active: #f44336;
     }
 
     &:not(.textfield-error):hover {
-      border-color: #fff;
+      border-color: colors.$white;
     }
 
     &.textfield-focused {
-      border-color: $blue;
+      border-color: #fff;
     }
 
     &.textfield-error {
-      border-color: $error;
+      border-color: colors.$error;
     }
   }
 
   &-focused {
     .textfield-label {
-      color: $blue;
+      color: colors.$main;
     }
 
     &.textfield-error .textfield-label {
-      color: $error;
+      color: colors.$error;
     }
 
     > .textfield-input-wrapper::after {
-      background-color: $blue;
+      background-color: colors.$main;
       height: 2px;
     }
 
     &.textfield-error > .textfield-input-wrapper::after {
-      background-color: $error-active;
+      background-color: colors.$error-active;
     }
 
     .textfield-fieldset {
-      border-color: $blue;
+      border-color: colors.$main;
     }
   }
 
   &-error {
     .textfield {
       &-label {
-        color: $error;
+        color: colors.$error;
       }
 
       &-fieldset {
-        border-color: $error-active;
+        border-color: colors.$error-active;
       }
     }
 
     > .textfield-input-wrapper::after {
-      background-color: $error;
+      background-color: colors.$error;
     }
 
     &-message {
-      color: $error;
+      color: colors.$error;
       font-size: 0.75rem;
       margin-top: 0.25rem;
     }
@@ -190,12 +186,12 @@ $error-active: #f44336;
     width: 100%;
     height: calc(100% + 0.5rem);
     border-radius: 0.25rem;
-    border-color: $color;
+    border-color: colors.$white;
     border-width: 1px;
     padding: 0.875rem 1rem;
 
     &-legend {
-      color: $color;
+      color: colors.$white;
       font-size: 0.75rem;
       opacity: 0;
     }
