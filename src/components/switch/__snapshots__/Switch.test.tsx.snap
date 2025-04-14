@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> snapshots renders correctly with label={ label: 'Test', checked: false, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      class="switch-checkbox"
+      id="«rh»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch  "
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+    <label
+      class="switch-label"
+      for="«rh»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: 'Test', checked: false, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      class="switch-checkbox"
+      disabled=""
+      id="«rg»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch  switch-disabled"
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+    <label
+      class="switch-label"
+      for="«rg»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: 'Test', checked: true, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      checked=""
+      class="switch-checkbox"
+      id="«rf»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch switch-checked "
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+    <label
+      class="switch-label"
+      for="«rf»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: 'Test', checked: true, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      checked=""
+      class="switch-checkbox"
+      disabled=""
+      id="«re»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch switch-checked switch-disabled"
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+    <label
+      class="switch-label"
+      for="«re»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: undefined, checked: false, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      class="switch-checkbox"
+      id="«rd»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch  "
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: undefined, checked: false, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      class="switch-checkbox"
+      disabled=""
+      id="«rc»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch  switch-disabled"
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: undefined, checked: true, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      checked=""
+      class="switch-checkbox"
+      id="«rb»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch switch-checked "
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Switch /> snapshots renders correctly with label={ label: undefined, checked: true, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="switch-container"
+  >
+    <input
+      checked=""
+      class="switch-checkbox"
+      disabled=""
+      id="«ra»"
+      type="checkbox"
+    />
+    <div
+      aria-hidden="true"
+      class="switch switch-checked switch-disabled"
+      data-testid="switch"
+    >
+      <div
+        class="switch-back"
+      />
+      <div
+        class="switch-handle"
+      >
+        <div
+          class="switch-handle-inner"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
