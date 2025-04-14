@@ -30,16 +30,18 @@
     ),
   );
 
-  position: relative;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  font-weight: 500;
-  font: inherit;
-  overflow: hidden;
+  & {
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font: inherit;
+    overflow: hidden;
 
-  &:not(:disabled) {
-    cursor: pointer;
+    &:not(:disabled) {
+      cursor: pointer;
+    }
   }
 
   &,
@@ -53,6 +55,10 @@
     left: 0;
     width: 100%;
     height: 100%;
+  }
+
+  .btn-entity {
+    @include entity.entity(xl);
   }
 
   &:not(:disabled):hover &-backdrop {
@@ -93,7 +99,6 @@
     }
 
     & .btn-entity {
-      @include entity.entity(xl);
       background-color: rgba(0, 0, 0, 0.2);
     }
   }
