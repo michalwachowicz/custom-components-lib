@@ -1,15 +1,8 @@
-import { RefObject, useId, useRef } from "react";
+import { useId, useRef } from "react";
 import * as styles from "./Checkbox.module.scss";
 import useClickEntity from "../clickEntity/useClickEntity";
 import Entity from "../clickEntity/ClickEntity";
-
-interface CheckboxProps {
-  ref?: RefObject<HTMLInputElement | null>;
-  label?: string;
-  checked?: boolean;
-  disabled?: boolean;
-  onChange?: (state: boolean) => void;
-}
+import Switchable from "../../interfaces/Switchable";
 
 export default function Checkbox({
   ref,
@@ -17,7 +10,7 @@ export default function Checkbox({
   checked = false,
   disabled = false,
   onChange,
-}: CheckboxProps) {
+}: Switchable) {
   const id = useId();
   const inputRef = useRef<HTMLInputElement>(null);
   const finalRef = ref || inputRef;
