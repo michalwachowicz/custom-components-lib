@@ -1,9 +1,9 @@
 import { useId } from "react";
 import * as styles from "./Checkbox.module.scss";
-import useClickEntity from "../clickEntity/useClickEntity";
 import Entity from "../clickEntity/ClickEntity";
 import Switchable from "../../interfaces/Switchable";
 import useFinalRef from "../../hooks/useFinalRef";
+import useClickCenterEntity from "../clickEntity/useClickCenterEntity";
 
 export default function Checkbox({
   ref,
@@ -15,13 +15,11 @@ export default function Checkbox({
   const id = useId();
   const finalRef = useFinalRef(ref);
 
-  const { entity, size, spawnEntity } = useClickEntity({ ref: finalRef });
+  const { entity, size, spawnEntity } = useClickCenterEntity(finalRef);
 
   const changeHandler = () => {
     if (onChange) onChange(!checked);
-
-    const rect = finalRef.current?.getBoundingClientRect();
-    spawnEntity((rect?.width || 0) / 2, (rect?.height || 0) / 2);
+    spawnEntity();
   };
 
   return (
