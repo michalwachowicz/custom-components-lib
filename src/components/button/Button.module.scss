@@ -1,8 +1,11 @@
 @use "sass:map";
+@use "../../scss/mixins/inner-reset" as *;
 @use "../../scss/mixins/entity" as entity;
 @use "../../scss/abstracts/colors" as colors;
 
 .btn {
+  @include inner-reset;
+
   $button-sizes: (
     small: (
       font-size: 0.8125rem,

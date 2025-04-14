@@ -1,7 +1,10 @@
 @use "../../scss/abstracts/colors" as colors;
+@use "../../scss/mixins/inner-reset" as *;
 @use "../../scss/mixins/flex-center" as *;
 
 .checkbox {
+  @include inner-reset;
+
   &-container {
     @include flex-center(true, false);
   }

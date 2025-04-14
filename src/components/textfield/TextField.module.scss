@@ -1,11 +1,17 @@
+@use "../../scss/mixins/inner-reset" as *;
+
 $color: rgba(255, 255, 255, 0.7);
 $blue: rgb(144, 202, 249);
 $error: #d32f2f;
 $error-active: #f44336;
 
 .textfield {
-  box-sizing: border-box;
-  position: relative;
+  @include inner-reset;
+
+  & {
+    box-sizing: border-box;
+    position: relative;
+  }
 
   &-input {
     position: relative;
@@ -79,7 +85,7 @@ $error-active: #f44336;
     }
 
     &:not(.textfield-not-empty) .textfield-label {
-      transform: translate(0.75rem, 1.15rem);
+      transform: translate(0.75rem, 0.85rem);
     }
 
     &.textfield-focused,
@@ -99,7 +105,7 @@ $error-active: #f44336;
     }
 
     &:not(.textfield-not-empty) .textfield-label {
-      transform: translate(0.875rem, 1.15rem);
+      transform: translate(0.875rem, 1rem);
     }
 
     &.textfield-focused,
@@ -108,7 +114,7 @@ $error-active: #f44336;
       margin-bottom: 0.4rem;
 
       .textfield-label {
-        transform: translate(0.875rem, -0.75rem) scale(0.75);
+        transform: translate(1.25rem, -0.75rem) scale(0.6);
       }
     }
 
@@ -180,14 +186,13 @@ $error-active: #f44336;
 
   &-fieldset {
     position: absolute;
-    top: -0.5rem;
-    left: -0.25rem;
-    width: calc(100% - 1.625rem);
-    height: calc(100% - 0.5rem);
+    top: -0.4rem;
+    width: 100%;
+    height: calc(100% + 0.5rem);
     border-radius: 0.25rem;
     border-color: $color;
     border-width: 1px;
-    margin: 0.0625rem 0 0.0625rem 0.25rem;
+    padding: 0.875rem 1rem;
 
     &-legend {
       color: $color;
