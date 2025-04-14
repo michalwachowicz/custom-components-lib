@@ -1,9 +1,9 @@
 @use "../../scss/abstracts/colors" as colors;
+@use "../../scss/mixins/flex-center" as *;
 
 .checkbox {
   &-container {
-    display: flex;
-    align-items: center;
+    @include flex-center(true, false);
   }
 
   &-wrapper {
@@ -13,11 +13,10 @@
   }
 
   &-input {
+    @include flex-center;
+
     position: relative;
     box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     appearance: none;
     width: 2.625rem;
     height: 2.625rem;
