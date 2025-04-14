@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: 'Test', checked: false, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        class="checkbox-input"
+        id="«rg»"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="checkbox-label"
+      for="«rg»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: 'Test', checked: false, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        class="checkbox-input"
+        disabled=""
+        id="«rf»"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="checkbox-label"
+      for="«rf»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: 'Test', checked: true, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        checked=""
+        class="checkbox-input"
+        id="«re»"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="checkbox-label"
+      for="«re»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: 'Test', checked: true, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        checked=""
+        class="checkbox-input"
+        disabled=""
+        id="«rd»"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="checkbox-label"
+      for="«rd»"
+    >
+      Test
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: undefined, checked: false, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        class="checkbox-input"
+        id="«rc»"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: undefined, checked: false, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        class="checkbox-input"
+        disabled=""
+        id="«rb»"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: undefined, checked: true, disabled: false }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        checked=""
+        class="checkbox-input"
+        id="«ra»"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> snapshots renders correctly with label={ label: undefined, checked: true, disabled: true }, checked=%s, disabled=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox-container"
+  >
+    <div
+      class="checkbox-wrapper"
+    >
+      <input
+        checked=""
+        class="checkbox-input"
+        disabled=""
+        id="«r9»"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
