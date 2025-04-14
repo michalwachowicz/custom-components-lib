@@ -1,11 +1,8 @@
 @use "sass:map";
 @use "../../scss/mixins/entity" as entity;
+@use "../../scss/abstracts/colors" as colors;
 
 .btn {
-  $color: rgb(144, 202, 249);
-  $darker: rgb(66, 165, 245);
-  $disabled: rgba(255, 255, 255, 0.3);
-
   $button-sizes: (
     small: (
       font-size: 0.8125rem,
@@ -59,36 +56,36 @@
   }
 
   &:not(:disabled):hover &-backdrop {
-    background: rgba($color, 0.08);
+    background: rgba(colors.$main, 0.08);
   }
 
   &-outlined {
-    border: 1px solid rgba($color, 0.5);
+    border: 1px solid rgba(colors.$main, 0.5);
 
     &:disabled {
-      border: 1px solid $disabled;
+      border: 1px solid colors.$disabled;
     }
 
     &:not(:disabled):hover {
-      border: 1px solid $color;
+      border: 1px solid colors.$main;
     }
   }
 
   &-outlined,
   &-text {
-    color: $color;
+    color: colors.$main;
   }
 
   &:disabled {
-    color: $disabled;
+    color: colors.$disabled;
   }
 
   &-contained {
     color: rgba(0, 0, 0, 0.87);
-    background-color: $color;
+    background-color: colors.$main;
 
     &:hover {
-      background-color: $darker;
+      background-color: colors.$main-darker;
     }
 
     &:disabled {

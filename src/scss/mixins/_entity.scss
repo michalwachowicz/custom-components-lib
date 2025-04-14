@@ -1,11 +1,11 @@
-$color: rgb(144, 202, 249);
+@use "../abstracts/colors" as colors;
 
 @mixin entity {
   display: block;
   position: absolute;
   animation: entity 0.5s ease forwards;
   border-radius: 50%;
-  background-color: rgba($color, 0.5);
+  background-color: rgba(colors.$main, 0.5);
 }
 
 @keyframes entity {
