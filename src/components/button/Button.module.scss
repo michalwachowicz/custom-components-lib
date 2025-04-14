@@ -93,7 +93,7 @@
     }
 
     & .btn-entity {
-      @include entity.entity;
+      @include entity.entity(xl);
       background-color: rgba(0, 0, 0, 0.2);
     }
   }
