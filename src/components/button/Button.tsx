@@ -26,7 +26,7 @@ export default function Button({
 }: ButtonProps) {
   const finalRef = useFinalRef(ref);
 
-  const { entity, size: s, spawnEntity } = useClickEntity({ ref: finalRef });
+  const { entity, size: s, spawnEntity } = useClickEntity(finalRef);
 
   const clickHandler: MouseEventHandler<HTMLButtonElement> = (e) => {
     if (disabled) return;

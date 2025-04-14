@@ -1,11 +1,9 @@
 import { RefObject, useEffect, useLayoutEffect, useState } from "react";
 import { EntityType } from "./ClickEntity";
 
-interface EntityHookProps {
-  ref: RefObject<HTMLElement | null>;
-}
-
-export default function useClickEntity({ ref }: EntityHookProps) {
+export default function useClickEntity<T extends HTMLElement>(
+  ref: RefObject<T | null>
+) {
   const [entity, setEntity] = useState<EntityType | null>(null);
   const [size, setSize] = useState(0);
 
