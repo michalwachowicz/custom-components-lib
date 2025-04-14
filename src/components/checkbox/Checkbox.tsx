@@ -1,8 +1,9 @@
-import { useId, useRef } from "react";
+import { useId } from "react";
 import * as styles from "./Checkbox.module.scss";
 import useClickEntity from "../clickEntity/useClickEntity";
 import Entity from "../clickEntity/ClickEntity";
 import Switchable from "../../interfaces/Switchable";
+import useFinalRef from "../../hooks/useFinalRef";
 
 export default function Checkbox({
   ref,
@@ -12,8 +13,7 @@ export default function Checkbox({
   onChange,
 }: Switchable) {
   const id = useId();
-  const inputRef = useRef<HTMLInputElement>(null);
-  const finalRef = ref || inputRef;
+  const finalRef = useFinalRef(ref);
 
   const { entity, size, spawnEntity } = useClickEntity({ ref: finalRef });
 

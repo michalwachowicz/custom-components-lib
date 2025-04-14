@@ -1,7 +1,8 @@
-import { MouseEventHandler, useRef } from "react";
+import { MouseEventHandler } from "react";
 import * as styles from "./Button.module.scss";
 import useClickEntity from "../clickEntity/useClickEntity";
 import Entity from "../clickEntity/ClickEntity";
+import useFinalRef from "../../hooks/useFinalRef";
 
 export type ButtonVariant = "text" | "contained" | "outlined";
 export type ButtonSize = "small" | "medium" | "large";
@@ -23,8 +24,7 @@ export default function Button({
   ref,
   onClick = () => {},
 }: ButtonProps) {
-  const btnRef = useRef<HTMLButtonElement>(null);
-  const finalRef = ref || btnRef;
+  const finalRef = useFinalRef(ref);
 
   const { entity, size: s, spawnEntity } = useClickEntity({ ref: finalRef });
 
