@@ -1,7 +1,20 @@
 @use "../../scss/abstracts/colors" as colors;
 @use "../../scss/mixins/inner-reset" as *;
 
-.textfield {
+@mixin input {
+  .input-wrapper > input:first-child,
+  .input-wrapper > button:first-child {
+    @content;
+  }
+}
+
+@mixin label {
+  [data-wrapper-label="true"] {
+    @content;
+  }
+}
+
+.input {
   @include inner-reset;
 
   & {
@@ -9,7 +22,7 @@
     position: relative;
   }
 
-  &-input {
+  @include input {
     position: relative;
     font-size: 1rem;
     color: #fff;
@@ -22,7 +35,7 @@
     z-index: 1;
   }
 
-  &-label {
+  @include label {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +46,7 @@
 
   &-standard,
   &-filled {
-    > .textfield-input-wrapper::after {
+    > .input-wrapper::after {
       content: "";
       position: absolute;
       display: block;
@@ -45,24 +58,33 @@
     }
   }
 
-  &:not(.textfield-focused):not(.textfield-error):hover
-    > &-input-wrapper::after {
+  &-filled,
+  &-outlined {
+    @include input {
+      height: 2.90625rem;
+    }
+  }
+
+  &:not(.input-focused):not(.input-error):hover > &-wrapper::after {
     background-color: #fff;
   }
 
   &-standard {
-    .textfield-input {
+    @include input {
       padding: 0.25rem 0;
       margin-top: 1rem;
+      height: 1.65625rem;
     }
 
-    &:not(.textfield-not-empty) .textfield-label {
-      transform: translateY(1.5rem);
+    &:not(.input-not-empty) {
+      @include label {
+        transform: translateY(1.5rem);
+      }
     }
 
-    &.textfield-focused,
-    &.textfield-not-empty {
-      .textfield-label {
+    &.input-focused,
+    &.input-not-empty {
+      @include label {
         transform: translate(0, 0) scale(0.75);
       }
     }
@@ -72,21 +94,23 @@
     border-radius: 0.25rem 0.25rem 0 0;
     background-color: rgba(255, 255, 255, 0.09);
 
-    .textfield-input {
+    @include input {
       padding: 1.5rem 0.75rem 0.25rem;
     }
 
-    &:not(.textfield-focused):hover {
+    &:not(.input-focused):hover {
       background-color: rgba(255, 255, 255, 0.12);
     }
 
-    &:not(.textfield-not-empty) .textfield-label {
-      transform: translate(0.75rem, 0.85rem);
+    &:not(.input-not-empty) {
+      @include label {
+        transform: translate(0.75rem, 1rem);
+      }
     }
 
-    &.textfield-focused,
-    &.textfield-not-empty {
-      .textfield-label {
+    &.input-focused,
+    &.input-not-empty {
+      @include label {
         transform: translate(0.75rem, 0.25rem) scale(0.75);
       }
     }
@@ -96,72 +120,74 @@
     border: 1px solid colors.$white;
     border-radius: 0.25rem;
 
-    .textfield-input {
+    @include input {
       padding: 0.875rem 1rem;
     }
 
-    &:not(.textfield-not-empty) .textfield-label {
-      transform: translate(0.875rem, 1rem);
+    &:not(.input-not-empty) {
+      @include label {
+        transform: translate(0.875rem, 1rem);
+      }
     }
 
-    &.textfield-focused,
-    &.textfield-not-empty {
+    &.input-focused,
+    &.input-not-empty {
       border: none;
       margin-bottom: 0.4rem;
 
-      .textfield-label {
+      @include label {
         transform: translate(1.25rem, -0.75rem) scale(0.6);
       }
     }
 
-    &:not(.textfield-error):hover {
+    &:not(.input-error):hover {
       border-color: colors.$white;
     }
 
-    &.textfield-focused {
+    &.input-focused {
       border-color: #fff;
     }
 
-    &.textfield-error {
+    &.input-error {
       border-color: colors.$error;
     }
   }
 
   &-focused {
-    .textfield-label {
+    @include label {
       color: colors.$main;
     }
 
-    &.textfield-error .textfield-label {
-      color: colors.$error;
+    &.input-error {
+      @include label {
+        color: colors.$error;
+      }
     }
 
-    > .textfield-input-wrapper::after {
+    > .input-wrapper::after {
       background-color: colors.$main;
       height: 2px;
     }
 
-    &.textfield-error > .textfield-input-wrapper::after {
+    &.input-error > .input-wrapper::after {
       background-color: colors.$error-active;
     }
 
-    .textfield-fieldset {
+    .input-fieldset {
       border-color: colors.$main;
     }
   }
 
   &-error {
-    .textfield {
-      &-label {
-        color: colors.$error;
-      }
-
-      &-fieldset {
-        border-color: colors.$error-active;
-      }
+    @include label {
+      color: colors.$error;
     }
 
-    > .textfield-input-wrapper::after {
+    .input-fieldset {
+      border-color: colors.$error-active;
+    }
+
+    > .input-wrapper::after {
       background-color: colors.$error;
     }
 

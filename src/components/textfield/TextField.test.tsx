@@ -43,13 +43,13 @@ describe("<TextField />", () => {
 
   it("applies error class if error prop is true", () => {
     render(<TextField label='Name' error />);
-    expect(screen.getByTestId("textfield")).toHaveClass("textfield-error");
+    expect(screen.getByTestId("input")).toHaveClass("input-error");
   });
 
   it("shows error message if error prop is a string", () => {
     render(<TextField label='Name' error='Incorrect input.' />);
 
-    expect(screen.getByTestId("textfield")).toHaveClass("textfield-error");
+    expect(screen.getByTestId("input")).toHaveClass("input-error");
     expect(screen.getByText("Incorrect input.")).toBeInTheDocument();
   });
 
@@ -58,15 +58,15 @@ describe("<TextField />", () => {
 
     const input = screen.getByRole("textbox");
     const user = userEvent.setup();
-    const focusedClass = "textfield-focused";
+    const focusedClass = "input-focused";
 
-    expect(screen.getByTestId("textfield")).not.toHaveClass(focusedClass);
+    expect(screen.getByTestId("input")).not.toHaveClass(focusedClass);
 
     await act(async () => {
       await user.click(input);
     });
 
-    expect(screen.getByTestId("textfield")).toHaveClass(focusedClass);
+    expect(screen.getByTestId("input")).toHaveClass(focusedClass);
   });
 
   it("shows legend when variant is outlined and focused or not empty", async () => {
@@ -86,20 +86,20 @@ describe("<TextField />", () => {
       await user.click(input);
     });
 
-    expect(screen.getByTestId("textfield-fieldset")).toBeInTheDocument();
+    expect(screen.getByTestId("input-fieldset")).toBeInTheDocument();
 
     await act(async () => {
       await user.click(screen.getByTestId("outside"));
     });
 
-    expect(screen.queryByTestId("textfield-fieldset")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("input-fieldset")).not.toBeInTheDocument();
 
     await act(async () => {
       await user.type(input, "test");
       await user.click(screen.getByTestId("outside"));
     });
 
-    expect(screen.getByTestId("textfield-fieldset")).toBeInTheDocument();
+    expect(screen.getByTestId("input-fieldset")).toBeInTheDocument();
   });
 
   describe("variants", () => {

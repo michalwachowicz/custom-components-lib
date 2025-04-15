@@ -3,24 +3,26 @@
 exports[`<TextField /> variants renders correctly with variant=filled, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   textfield-error"
-      data-testid="textfield"
+      class="input input-filled   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«ro»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ro»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«ro»"
           type="text"
           value=""
@@ -28,7 +30,7 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=err
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -39,24 +41,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=err
 exports[`<TextField /> variants renders correctly with variant=filled, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   textfield-error"
-      data-testid="textfield"
+      class="input input-filled   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rn»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rn»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rn»"
           type="text"
@@ -65,7 +69,7 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=err
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -76,24 +80,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=err
 exports[`<TextField /> variants renders correctly with variant=filled, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   "
-      data-testid="textfield"
+      class="input input-filled   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rm»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rm»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«rm»"
           type="text"
           value=""
@@ -107,24 +113,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=fal
 exports[`<TextField /> variants renders correctly with variant=filled, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   "
-      data-testid="textfield"
+      class="input input-filled   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rl»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rl»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rl»"
           type="text"
@@ -139,24 +147,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=fal
 exports[`<TextField /> variants renders correctly with variant=filled, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   textfield-error"
-      data-testid="textfield"
+      class="input input-filled   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rk»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rk»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«rk»"
           type="text"
           value=""
@@ -170,24 +180,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=tru
 exports[`<TextField /> variants renders correctly with variant=filled, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-filled"
-    data-testid="textfield-container"
+    class="input-container-filled"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-filled   textfield-error"
-      data-testid="textfield"
+      class="input input-filled   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rj»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rj»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rj»"
           type="text"
@@ -202,24 +214,26 @@ exports[`<TextField /> variants renders correctly with variant=filled, error=tru
 exports[`<TextField /> variants renders correctly with variant=outlined, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   textfield-error"
-      data-testid="textfield"
+      class="input input-outlined   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«ri»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ri»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«ri»"
           type="text"
           value=""
@@ -227,7 +241,7 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=e
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -238,24 +252,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=e
 exports[`<TextField /> variants renders correctly with variant=outlined, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   textfield-error"
-      data-testid="textfield"
+      class="input input-outlined   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rh»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rh»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rh»"
           type="text"
@@ -264,7 +280,7 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=e
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -275,24 +291,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=e
 exports[`<TextField /> variants renders correctly with variant=outlined, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   "
-      data-testid="textfield"
+      class="input input-outlined   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rg»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rg»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«rg»"
           type="text"
           value=""
@@ -306,24 +324,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=f
 exports[`<TextField /> variants renders correctly with variant=outlined, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   "
-      data-testid="textfield"
+      class="input input-outlined   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rf»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rf»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rf»"
           type="text"
@@ -338,24 +358,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=f
 exports[`<TextField /> variants renders correctly with variant=outlined, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   textfield-error"
-      data-testid="textfield"
+      class="input input-outlined   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«re»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«re»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«re»"
           type="text"
           value=""
@@ -369,24 +391,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=t
 exports[`<TextField /> variants renders correctly with variant=outlined, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-outlined"
-    data-testid="textfield-container"
+    class="input-container-outlined"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-outlined   textfield-error"
-      data-testid="textfield"
+      class="input input-outlined   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rd»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rd»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rd»"
           type="text"
@@ -401,24 +425,26 @@ exports[`<TextField /> variants renders correctly with variant=outlined, error=t
 exports[`<TextField /> variants renders correctly with variant=standard, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   textfield-error"
-      data-testid="textfield"
+      class="input input-standard   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rc»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rc»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«rc»"
           type="text"
           value=""
@@ -426,7 +452,7 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=e
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -437,24 +463,26 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=e
 exports[`<TextField /> variants renders correctly with variant=standard, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   textfield-error"
-      data-testid="textfield"
+      class="input input-standard   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«rb»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rb»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«rb»"
           type="text"
@@ -463,7 +491,7 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=e
       </div>
     </div>
     <div
-      class="textfield-error-message"
+      class="input-error-message"
     >
       error message
     </div>
@@ -474,24 +502,26 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=e
 exports[`<TextField /> variants renders correctly with variant=standard, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   "
-      data-testid="textfield"
+      class="input input-standard   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«ra»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ra»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«ra»"
           type="text"
           value=""
@@ -505,24 +535,26 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=f
 exports[`<TextField /> variants renders correctly with variant=standard, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   "
-      data-testid="textfield"
+      class="input input-standard   "
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«r9»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r9»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«r9»"
           type="text"
@@ -537,24 +569,26 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=f
 exports[`<TextField /> variants renders correctly with variant=standard, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   textfield-error"
-      data-testid="textfield"
+      class="input input-standard   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«r8»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r8»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           id="«r8»"
           type="text"
           value=""
@@ -568,24 +602,26 @@ exports[`<TextField /> variants renders correctly with variant=standard, error=t
 exports[`<TextField /> variants renders correctly with variant=standard, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="textfield-container-standard"
-    data-testid="textfield-container"
+    class="input-container-standard"
+    data-testid="input-container"
   >
     <div
-      class="textfield textfield-standard   textfield-error"
-      data-testid="textfield"
+      class="input input-standard   input-error"
+      data-testid="input"
     >
-      <label
-        class="textfield-label"
-        for="«r7»"
-      >
-        Name
-      </label>
       <div
-        class="textfield-input-wrapper"
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r7»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
       >
         <input
-          class="textfield-input"
           disabled=""
           id="«r7»"
           type="text"
