@@ -1,6 +1,7 @@
 import { act } from "react";
 import { render, screen } from "@testing-library/react";
-import TextField, { TextFieldVariant } from "./TextField";
+import TextField from "./TextField";
+import type { InputVariant } from "../../types/InputVariant";
 import userEvent from "@testing-library/user-event";
 
 describe("<TextField />", () => {
@@ -118,7 +119,7 @@ describe("<TextField />", () => {
         const { asFragment } = render(
           <TextField
             label='Name'
-            variant={variant as TextFieldVariant}
+            variant={variant as InputVariant}
             error={error}
             disabled={!!disabled}
           />

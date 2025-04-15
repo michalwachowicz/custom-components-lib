@@ -1,11 +1,10 @@
 import { useId, useState } from "react";
 import * as styles from "./TextField.module.scss";
-
-export type TextFieldVariant = "filled" | "outlined" | "standard";
+import type { InputVariant } from "../../types/InputVariant";
 
 interface TextFieldProps {
   label: string;
-  variant?: TextFieldVariant;
+  variant?: InputVariant;
   disabled?: boolean;
   error?: boolean | string;
 }
