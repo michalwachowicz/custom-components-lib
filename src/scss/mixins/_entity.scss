@@ -1,5 +1,5 @@
 @use "../abstracts/colors" as colors;
-@use "../inner-reset" as *;
+@use "./inner-reset" as *;
 
 $entity-scales: (
   sm: 1,
@@ -9,11 +9,13 @@ $entity-scales: (
 @mixin entity($scale-name: sm) {
   @include inner-reset;
 
-  display: block;
-  position: absolute;
-  animation: entity-#{$scale-name} 0.5s ease forwards;
-  border-radius: 50%;
-  background-color: rgba(colors.$main, 0.5);
+  & {
+    display: block;
+    position: absolute;
+    animation: entity-#{$scale-name} 0.5s ease forwards;
+    border-radius: 50%;
+    background-color: rgba(colors.$main, 0.5);
+  }
 }
 
 @each $name, $scale in $entity-scales {
