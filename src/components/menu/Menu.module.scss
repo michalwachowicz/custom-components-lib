@@ -6,6 +6,7 @@
   color: #fff;
   border-radius: 0.25rem;
   animation: menu 0.3s ease forwards;
+  z-index: 2;
 
   &-item {
     cursor: pointer;
