@@ -133,10 +133,9 @@
     &.input-focused,
     &.input-not-empty {
       border: none;
-      margin-bottom: 0.4rem;
 
       @include label {
-        transform: translate(1.25rem, -0.75rem) scale(0.6);
+        transform: translate(1.15rem, -0.85rem) scale(0.65);
       }
     }
 
@@ -202,15 +201,19 @@
     margin-left: 0.75rem;
   }
 
+  &-container-outlined.input-container-value {
+    margin-top: 0.125rem;
+  }
+
   &-container-outlined &-error-message {
     margin-left: 1rem;
   }
 
   &-fieldset {
     position: absolute;
-    top: -0.4rem;
+    top: -0.53125rem;
     width: 100%;
-    height: calc(100% + 0.5rem);
+    height: calc(100% + 0.53125rem);
     border-radius: 0.25rem;
     border-color: colors.$white;
     border-width: 1px;

@@ -26,7 +26,9 @@ export default function InputWrapper({
 
   return (
     <div
-      className={`${styles[`input-container-${variant}`]}`}
+      className={`${styles[`input-container-${variant}`]} ${
+        focused || value !== "" ? styles["input-container-value"] : ""
+      }`}
       data-testid='input-container'
     >
       <div
