@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rp»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«ro»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rn»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rm»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rl»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=filled, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rk»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rj»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«ri»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rh»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rg»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rf»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=outlined, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«re»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rd»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rc»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«rb»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«ra»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«r9»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn "
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Select /> snapshots renders correctly with variant=standard, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        Name
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <button
+          aria-controls="«r8»"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="select-btn select-btn-disabled"
+          disabled=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

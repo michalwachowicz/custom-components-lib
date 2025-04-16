@@ -1,0 +1,5 @@
+@use "../../scss/mixins/entity" as entity;
+
+.entity {
+  @include entity.entity;
+}

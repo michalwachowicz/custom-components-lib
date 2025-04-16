@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> snapshots renders correctly with open={ open: false, onClose: [Function], children: 'Test' }, onClose=%s, children=%s 1`] = `<DocumentFragment />`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: false, onClose: [Function], children: undefined }, onClose=%s, children=%s 1`] = `<DocumentFragment />`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: false, onClose: undefined, children: 'Test' }, onClose=%s, children=%s 1`] = `<DocumentFragment />`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: false, onClose: undefined, children: undefined }, onClose=%s, children=%s 1`] = `<DocumentFragment />`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: true, onClose: [Function], children: 'Test' }, onClose=%s, children=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-container"
+  >
+    <div
+      class="modal-backdrop"
+      data-testid="modal-backdrop"
+    />
+    <div
+      aria-modal="true"
+      class="modal"
+      role="dialog"
+    >
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: true, onClose: [Function], children: undefined }, onClose=%s, children=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-container"
+  >
+    <div
+      class="modal-backdrop"
+      data-testid="modal-backdrop"
+    />
+    <div
+      aria-modal="true"
+      class="modal"
+      role="dialog"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: true, onClose: undefined, children: 'Test' }, onClose=%s, children=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-container"
+  >
+    <div
+      class="modal-backdrop"
+      data-testid="modal-backdrop"
+    />
+    <div
+      aria-modal="true"
+      class="modal"
+      role="dialog"
+    >
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Modal /> snapshots renders correctly with open={ open: true, onClose: undefined, children: undefined }, onClose=%s, children=%s 1`] = `
+<DocumentFragment>
+  <div
+    class="modal-container"
+  >
+    <div
+      class="modal-backdrop"
+      data-testid="modal-backdrop"
+    />
+    <div
+      aria-modal="true"
+      class="modal"
+      role="dialog"
+    />
+  </div>
+</DocumentFragment>
+`;

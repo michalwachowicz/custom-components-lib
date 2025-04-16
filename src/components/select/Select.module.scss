@@ -1,0 +1,23 @@
+@use "../../scss/abstracts/colors" as colors;
+
+.select {
+  &-btn {
+    position: relative;
+    text-align: start;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0.8em;
+      height: 0.5em;
+      background-color: #fff;
+      clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+      top: 50%;
+      right: 0.5rem;
+    }
+
+    &-disabled::after {
+      background-color: colors.$disabled;
+    }
+  }
+}

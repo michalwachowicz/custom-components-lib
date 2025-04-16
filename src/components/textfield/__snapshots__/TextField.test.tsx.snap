@@ -1,0 +1,634 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ro»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«ro»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rn»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rn»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rm»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«rm»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rl»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rl»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rk»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«rk»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=filled, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-filled "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-filled   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rj»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rj»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ri»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«ri»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rh»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rh»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rg»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«rg»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rf»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rf»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«re»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«re»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=outlined, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-outlined "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-outlined   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rd»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rd»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=error message, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rc»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«rc»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=error message, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«rb»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«rb»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="input-error-message"
+    >
+      error message
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=false, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«ra»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«ra»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=false, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   "
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r9»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«r9»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=true, disabled=false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r8»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          id="«r8»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<TextField /> variants renders correctly with variant=standard, error=true, disabled=true 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container-standard "
+    data-testid="input-container"
+  >
+    <div
+      class="input input-standard   input-error"
+      data-testid="input"
+    >
+      <div
+        data-wrapper-label="true"
+      >
+        <label
+          for="«r7»"
+        >
+          Name
+        </label>
+      </div>
+      <div
+        class="input-wrapper"
+      >
+        <input
+          disabled=""
+          id="«r7»"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

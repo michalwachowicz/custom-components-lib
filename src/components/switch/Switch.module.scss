@@ -1,0 +1,96 @@
+@use "../../scss/abstracts/colors" as colors;
+@use "../../scss/mixins/flex-center" as *;
+@use "../../scss/mixins/inner-reset" as *;
+
+.switch {
+  @include inner-reset;
+
+  & {
+    position: relative;
+    height: 2.375rem;
+    width: 3.625rem;
+
+    &:not(&-disabled) {
+      cursor: pointer;
+
+      &:hover .switch-handle {
+        background-color: rgba(144, 202, 249, 0.08);
+      }
+    }
+  }
+
+  &-checkbox {
+    position: absolute;
+    appearance: none;
+  }
+
+  &-container {
+    @include flex-center(true, false);
+  }
+
+  &-handle {
+    @include flex-center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+
+    &-inner {
+      width: 1.25rem;
+      height: 1.25rem;
+      background-color: rgb(224, 224, 224);
+      border-radius: 50%;
+    }
+  }
+
+  &-back {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    border-radius: 0.5rem;
+    width: 2.125rem;
+    height: 0.875rem;
+    background-color: #fff;
+    opacity: 0.5;
+  }
+
+  &-checked &-back {
+    background-color: colors.$main;
+  }
+
+  &-checked &-handle {
+    transform: translateX(50%);
+
+    &-inner {
+      background-color: colors.$main;
+    }
+  }
+
+  &-label {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  &-disabled {
+    & + .switch-label {
+      color: colors.$disabled;
+    }
+
+    .switch-back {
+      opacity: 0.2;
+    }
+
+    .switch-handle-inner {
+      background-color: rgb(117, 117, 117);
+    }
+
+    &.switch-checked .switch-handle-inner {
+      background-color: rgb(64, 90, 112);
+    }
+  }
+}
