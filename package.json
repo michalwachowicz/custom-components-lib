@@ -1,12 +1,28 @@
 {
-  "name": "innowise-task-11",
-  "private": true,
-  "version": "0.0.0",
+  "name": "custom-components-lib",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "typings/index.d.ts",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "version": "0.0.1",
   "scripts": {
     "dev": "webpack serve",
-    "build": "webpack",
+    "build": "tsc -p tsconfig.build.json && webpack --mode=production",
     "lint": "eslint .",
     "test": "jest"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./typings/index.d.ts"
+    }
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -22,7 +38,6 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.2",
-    "copy-webpack-plugin": "^13.0.0",
     "css-loader": "^7.1.2",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
