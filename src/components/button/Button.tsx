@@ -32,7 +32,8 @@ export default function Button({
     if (disabled) return;
     if (onClick) onClick(e);
 
-    spawnEntity(e.clientX, e.clientY);
+    const { offsetX, offsetY } = e.nativeEvent;
+    spawnEntity(offsetX, offsetY);
   };
 
   return (
