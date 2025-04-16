@@ -3,7 +3,7 @@
 exports[`<Select /> snapshots renders correctly with variant=filled, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -38,7 +38,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=error
 exports[`<Select /> snapshots renders correctly with variant=filled, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -74,7 +74,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=error
 exports[`<Select /> snapshots renders correctly with variant=filled, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -104,7 +104,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=false
 exports[`<Select /> snapshots renders correctly with variant=filled, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -135,7 +135,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=false
 exports[`<Select /> snapshots renders correctly with variant=filled, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -165,7 +165,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=true,
 exports[`<Select /> snapshots renders correctly with variant=filled, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-filled"
+    class="input-container-filled "
     data-testid="input-container"
   >
     <div
@@ -196,7 +196,7 @@ exports[`<Select /> snapshots renders correctly with variant=filled, error=true,
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -231,7 +231,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=err
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -267,7 +267,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=err
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -297,7 +297,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=fal
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -328,7 +328,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=fal
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -358,7 +358,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=tru
 exports[`<Select /> snapshots renders correctly with variant=outlined, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-outlined"
+    class="input-container-outlined "
     data-testid="input-container"
   >
     <div
@@ -389,7 +389,7 @@ exports[`<Select /> snapshots renders correctly with variant=outlined, error=tru
 exports[`<Select /> snapshots renders correctly with variant=standard, error=error message, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
@@ -424,7 +424,7 @@ exports[`<Select /> snapshots renders correctly with variant=standard, error=err
 exports[`<Select /> snapshots renders correctly with variant=standard, error=error message, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
@@ -460,7 +460,7 @@ exports[`<Select /> snapshots renders correctly with variant=standard, error=err
 exports[`<Select /> snapshots renders correctly with variant=standard, error=false, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
@@ -490,7 +490,7 @@ exports[`<Select /> snapshots renders correctly with variant=standard, error=fal
 exports[`<Select /> snapshots renders correctly with variant=standard, error=false, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
@@ -521,7 +521,7 @@ exports[`<Select /> snapshots renders correctly with variant=standard, error=fal
 exports[`<Select /> snapshots renders correctly with variant=standard, error=true, disabled=false 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
@@ -551,7 +551,7 @@ exports[`<Select /> snapshots renders correctly with variant=standard, error=tru
 exports[`<Select /> snapshots renders correctly with variant=standard, error=true, disabled=true 1`] = `
 <DocumentFragment>
   <div
-    class="input-container-standard"
+    class="input-container-standard "
     data-testid="input-container"
   >
     <div
