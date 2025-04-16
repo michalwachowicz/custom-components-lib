@@ -1,6 +1,6 @@
 import * as styles from "./Modal.module.scss";
 
-interface ModalProps {
+export interface ModalProps {
   open?: boolean;
   onClose?: () => void;
   children?: React.ReactNode | string;
