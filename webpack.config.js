@@ -1,11 +1,11 @@
 import path from "path";
-import { Configuration } from "webpack";
-import CopyWebpackPlugin from "copy-webpack-plugin";
 import ESLintWebpackPlugin from "eslint-webpack-plugin";
 
-const config: Configuration = {
-  mode: (process.env.NODE_ENV as "development" | "production") || "development",
-  entry: "./src/main.tsx",
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+
+const config = {
+  mode: process.env.NODE_ENV || "development",
+  entry: "./src/index.ts",
   module: {
     rules: [
       {
@@ -35,13 +35,22 @@ const config: Configuration = {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: "main.js",
+    filename: "index.js",
     path: path.resolve(__dirname, "dist"),
+    library: {
+      type: "module",
+    },
+    clean: true,
+    module: true,
+  },
+  experiments: {
+    outputModule: true,
+  },
+  externals: {
+    react: "react",
+    "react-dom": "react-dom",
   },
   plugins: [
-    new CopyWebpackPlugin({
-      patterns: [{ from: "public" }],
-    }),
     new ESLintWebpackPlugin({
       extensions: ["ts", "tsx"],
       exclude: ["node_modules"],
